@@ -7,3 +7,6 @@ pull requests are welcome as always
 aimbot
 esp
 bhop (bad but works)
+
+# loadstring 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RoksanaKregiel/stalinhack---arsenal-cheat/main/shit.lua", true))()
