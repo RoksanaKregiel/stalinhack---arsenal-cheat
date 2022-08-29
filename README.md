@@ -2,6 +2,8 @@
 I made it for learning lua basically
 the aimbot is glitchy and shit
 
+# features
 
-
-(it's bad don't use)
+aimbot
+esp
+bhop (bad but works)
