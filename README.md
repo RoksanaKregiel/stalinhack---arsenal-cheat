@@ -1,7 +1,7 @@
 # stalinhack---arsenal-cheat
-I made it for learning lua basically
-the aimbot is glitchy and shit
 
+IF YOU GONNA USE IT WITHOUT CREDITING THE REPO UR GAY AND BLACK MONKEY
+pull requests are welcome as always
 # features
 
 aimbot
