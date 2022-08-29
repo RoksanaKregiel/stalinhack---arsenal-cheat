@@ -1,31 +1,26 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("stalinhack - arsenal (beta build)", "BloodTheme")
+local Window = Library.CreateLib("stalinhack - made for arsenal", "BloodTheme")
 --AIMBOT
 local Aimbot = Window:NewTab("Aimbot")
 local AimbotSection = Aimbot:NewSection("helps you with aim")
-
 --VISUALS
 local Visuals = Window:NewTab("Visuals")
 local VisualsSection = Visuals:NewSection("see retards through the wall")
 VisualsSection:NewButton("esp", "read above nig", function()
-
+loadstring(game:HttpGet("https://pastebin.com/raw/ixFJ0wcL", true))()
 end)
-
---Misc
-
+--MISC
 local Misc = Window:NewTab("Misc")
-local MiscSection = Misc:NewSection("shit")
-
-
-
-
- 
+local MiscSection = Misc:NewSection("other shit")
+MiscSection:NewButton("bhop", "makes u go like a bunny",function ()
+	loadstring(game:HttpGet("https://pastebin.com/raw/frn3PV7d", true))()
+end)
 AimbotSection:NewButton("aimbot", "hold x for it", function()
 local TeamCheck = true
 local WallCheck = true
 local Key = "X"
 local BodyPart = "Head"
-local FOV = 120
+local FOV = 180
 local Inset = game:GetService("GuiService"):GetGuiInset()
 local SC = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2)
 local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
