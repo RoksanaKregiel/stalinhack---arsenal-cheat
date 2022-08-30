@@ -1,7 +1,8 @@
+
 --IF U GONNA USE IT AS UR OWN SOURCE WITHOUT CREDITS UR FUCKING RETARDED
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("stalinhack v.0.4 - made for arsenal", "BloodTheme")
---AIMBOT
+local Window = Library.CreateLib("stalinhack v.0.4 - made for arsenal", "Ocean")
+
 local Aimbot = Window:NewTab("Aimbot")
 local AimbotSection = Aimbot:NewSection("helps you with aim")
 --VISUALS
@@ -16,6 +17,7 @@ local MiscSection = Misc:NewSection("other shit")
 MiscSection:NewButton("bhop", "makes u go like a bunny",function ()
 	loadstring(game:HttpGet("https://pastebin.com/raw/frn3PV7d", true))()
 end)
+
 AimbotSection:NewButton("aimbot", "hold x for it", function()
 local TeamCheck = true
 local WallCheck = true
@@ -100,4 +102,3 @@ game:GetService("RunService").RenderStepped:Connect(function()
     end
 end)
 end)
-
