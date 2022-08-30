@@ -1,6 +1,6 @@
 --IF U GONNA USE IT AS UR OWN SOURCE WITHOUT CREDITS UR FUCKING RETARDED
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("stalinhack - made for arsenal", "BloodTheme")
+local Window = Library.CreateLib("stalinhack v.0.4 - made for arsenal", "BloodTheme")
 --AIMBOT
 local Aimbot = Window:NewTab("Aimbot")
 local AimbotSection = Aimbot:NewSection("helps you with aim")
